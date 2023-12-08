@@ -24,5 +24,9 @@ int main(){
     f = &b;
     g = &c;
     printf(" a = %d, b = %f, c = %c,\nd = %p, f = %p, g = %p", a, b, c, d, f, g);
+    *d += 2;
+    *f *= 2;
+    *g = 'g';
+    printf(" a = %d, b = %f, c = %c,\nd = %p, f = %p, g = %p", a, b, c, d, f, g);
     return 0;
 }
